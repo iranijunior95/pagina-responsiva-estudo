@@ -7,8 +7,8 @@
 
 body {
     height: 100vh;
-    background-color: #000;
-    background-image: url('https://images.unsplash.com/photo-1485470733090-0aae1788d5af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1517&q=80');
+    background-color: #743b00;
+    background-image: url('https://images.unsplash.com/photo-1612892483236-52d32a0e0ac1?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-size: cover;
     background-position: center;
 }
@@ -19,12 +19,12 @@ li {
 
 a {
     text-decoration: none;
-    color: #FFF;
+    color: #FFFFFF;
     font-size: 1rem;
 }
 
 a:hover {
-    color: orange;
+    color: #f7a837;
 }
 
 header {
@@ -53,15 +53,15 @@ header {
 }
 
 .navbar .toggle-btn {
-    color: #FFF;
+    color: #FFFFFF;
     font-size: 1.5rem;
     cursor: pointer;
     display: none;
 }
 
 .action-btn {
-    background-color: orange;
-    color: #FFF;
+    background-color: #f7a837;
+    color: #FFFFFF;
     padding: 0.5rem 1rem;
     border: none;
     outline: none;
@@ -74,7 +74,7 @@ header {
 
 .action-btn:hover {
     scale: 1.05;
-    color: #FFF;
+    color: #FFFFFF;
 }
 
 .action-btn:active {
@@ -123,7 +123,7 @@ section#home {
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #FFF;
+    color: #FFFFFF;
 }
 
 #home h1{
