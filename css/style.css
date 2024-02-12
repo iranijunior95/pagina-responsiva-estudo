@@ -96,7 +96,7 @@ header {
 }
 
 .dropdown_menu.open {
-    height: 240px;
+    height: 215px;
 }
 
 .dropdown_menu li {
@@ -116,6 +116,21 @@ header {
     display: block;
 }
 
+section#home {
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFF;
+}
+
+#home h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
 @media (max-width: 992px) {
     .navbar .links,
     .navbar .action-btn {
@@ -126,3 +141,11 @@ header {
         display: block;
     }
 }
+
+@media (max-width: 576px) {
+    .dropdown_menu {
+        left: 2rem;
+        width: unset;
+    }
+}
+
